@@ -1,0 +1,4 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# m h  dom mon dow   command
+*/10  *  *   *   *     /home/pi/nmapdisplay.sh > /dev/null 2>&1
